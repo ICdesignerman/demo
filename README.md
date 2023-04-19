@@ -55,7 +55,7 @@ Output signals: OUT_N,、OUT_D
 ![image](https://user-images.githubusercontent.com/118537645/233063522-9f71cab0-137b-4631-847c-8ddd55e15328.png)
 
 ### Counter
-Counter is to generate RSA INPUT (IN_P,、IN_Q、IN_E)
+Counter is to generate RSA_IP INPUT (IN_P,、IN_Q、IN_E)
 
 ### Top
 Connect RSA_IP and Counter together

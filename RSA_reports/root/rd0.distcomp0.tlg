@@ -1,0 +1,24 @@
+@N:: Applying property .distcompmodetop with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module top in library work
+@N:: Applying property .noprune with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module RSA_IP in library work
+@N:: Applying property .noprune with value 1 on module RSA_IP in library work
+@N:: Applying property .distcompnoprune with value 1 on module counter in library work
+@N:: Applying property .noprune with value 1 on module counter in library work
+Selecting top level module top
+@N: CG364 :"/home/m110/m110063553/FPGA/Lab1_PCflow/src/counter.v":1:7:1:13|Synthesizing module counter in library work.
+
+	WIDTH=32'b00000000000000000000000000000100
+   Generated name = counter_4s
+Running optimization stage 1 on counter_4s .......
+Finished optimization stage 1 on counter_4s (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/m110/m110063553/FPGA/Lab1_PCflow/src/RSA_IP.v":8:7:8:12|Synthesizing module RSA_IP in library work.
+
+	WIDTH=32'b00000000000000000000000000000100
+   Generated name = RSA_IP_4s
+Running optimization stage 1 on RSA_IP_4s .......
+Finished optimization stage 1 on RSA_IP_4s (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/m110/m110063553/FPGA/Lab1_PCflow/src/top.v":1:7:1:9|Synthesizing module top in library work.
+@W: CS263 :"/home/m110/m110063553/FPGA/Lab1_PCflow/src/top.v":14:75:14:83|Port-width mismatch for port IN_E. The port definition is 8 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)

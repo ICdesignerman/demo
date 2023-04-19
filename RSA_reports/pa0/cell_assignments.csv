@@ -1,0 +1,8 @@
+Instructions:
+  1. Load this file into Excel(tm)
+  2. Select line 6
+  3. Select Data->Filter
+  4. Filter on columns L0 and to the right to explore assignments for hierarchical modules
+NAME,LUT,DFF,DSP,PINS,BIN,L0
+RSA_IP1,806,0,6,29,FB1.uB,RSA_IP1
+cnt_inst1,77,13,0,14,FB1.uA,cnt_inst1

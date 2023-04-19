@@ -1,0 +1,27 @@
+#For partition
+tdm_control -type hstdm
+tdm_control -hstdm_bit_rate 1400
+tdm_control -qualification_mode  all
+tdm_control -max_ratio 16
+#tdm_control -max_ratio 8 
+
+#cell assign
+bin_attribute {FB1.uC FB1.uD} -locked
+assign_cell {cnt_inst1} {FB1.uA}
+assign_cell {RSA_IP1} {FB1.uB}
+
+#Global clock assign
+assign_global_net {clk} {GCLK1}
+
+
+#reset
+assign_virtual_port -port {rst_n} -type USR_LOCAL_RESET -bin {FB1.uA}
+reset_synchronize -toplevel_net {rst_n} -clock {clk} -init {0} -extra_pipeline_stages {2}
+
+#TOP IO assign
+assign_port {OUT_D[7:0]} {TOP_IO_HT3_FB1_B5/A[7:0]}
+assign_port {OUT_N[7:0]} {TOP_IO_HT3_FB1_B5/B[7:0]}
+
+
+
+

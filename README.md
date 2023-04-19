@@ -58,4 +58,4 @@ Output signals: OUT_N,、OUT_D
 Counter is to generate RSA INPUT (IN_P,、IN_Q、IN_E)
 
 ### Top
-Connect RSA_IP and C together
+Connect RSA_IP and Counter together

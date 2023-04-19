@@ -1,4 +1,4 @@
-# **RSA_IP with counter on Haps in Verilog**
+# **RSA_IP with counter on HAPS in Verilog**
 Modules include
 - top
 - RSA_IP

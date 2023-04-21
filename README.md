@@ -60,6 +60,11 @@ Counter is to generate RSA_IP INPUT (IN_P,、IN_Q、IN_E)
 ### Top
 Connect RSA_IP and Counter together
 
+### 2.Block diagram
+
+### 3.The schematics of FPGA_A and FPGA_B
+
+![image](https://user-images.githubusercontent.com/118537645/233610635-8ae5bb99-2f35-4d3c-80df-7ff5a1915661.png)
 
 
 ### 4.Timing report
@@ -75,3 +80,4 @@ Setup time: Check WNS and TNS in FB1_uB_timing_summary.txt
 Hold time:  Check WHS and THS in FB1_uB_timing_summary_Min.txt
 ![image](https://user-images.githubusercontent.com/118537645/233609565-087ee157-bbe7-4ebd-bc9b-1552842a98eb.png)
 
+### 5.Conclusion

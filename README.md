@@ -59,3 +59,19 @@ Counter is to generate RSA_IP INPUT (IN_P,、IN_Q、IN_E)
 
 ### Top
 Connect RSA_IP and Counter together
+
+
+
+### 4.Timing report
+Setup time: Check WNS and TNS in FB1_uA_timing_summary.txt
+![image](https://user-images.githubusercontent.com/118537645/233609132-07187046-05b0-4c7b-b3cb-83ca5268c9a7.png)
+
+Hold time:  Check WHS and THS in FB1_uA_timing_summary_Min.txt
+![image](https://user-images.githubusercontent.com/118537645/233608884-0a9aa01d-bc45-49e1-a0f4-d4480d86a3bc.png)
+
+Setup time: Check WNS and TNS in FB1_uB_timing_summary.txt
+![image](https://user-images.githubusercontent.com/118537645/233609655-f3493af7-ad5d-4cdd-961d-7125eaebe739.png)
+
+Hold time:  Check WHS and THS in FB1_uB_timing_summary_Min.txt
+![image](https://user-images.githubusercontent.com/118537645/233609565-087ee157-bbe7-4ebd-bc9b-1552842a98eb.png)
+

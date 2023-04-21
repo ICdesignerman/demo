@@ -66,6 +66,10 @@ Counter is to generate RSA_IP INPUT (IN_P,、IN_Q、IN_E)
 ### Top
 Connect RSA_IP and Counter together
 
+
+
+
+
 ### 2.Block diagram
 
 ![image](https://user-images.githubusercontent.com/118537645/233611782-33957f88-3901-4831-8eff-859e8823fa36.png)

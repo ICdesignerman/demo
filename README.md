@@ -93,3 +93,5 @@ Hold time:  Check WHS and THS in FB1_uB_timing_summary_Min.txt
 ![image](https://user-images.githubusercontent.com/118537645/233609565-087ee157-bbe7-4ebd-bc9b-1552842a98eb.png)
 
 ### 5.Conclusion
+
+From the Timing Report, both Setup time and Hold time have meet, which is very good, but it can be better. It will be better if WNS can be changed to 0, so as to optimize the speed of the circuit.
